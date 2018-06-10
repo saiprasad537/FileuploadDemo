@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="row">
+    <div class="row" id="demoRow">
         <div class="col-md-4">
             <div id="fileuploader">Upload</div>
         </div>
