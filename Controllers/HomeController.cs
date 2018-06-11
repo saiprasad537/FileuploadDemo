@@ -21,6 +21,7 @@ namespace FileuploadDemo.Controllers
             try
             {
                 //Demo hayageek code files
+                //This is made for Production Use Kindly test the changes
                 HttpPostedFileBase hpf = HttpContext.Request.Files["file"] as HttpPostedFileBase;
                 string tag = HttpContext.Request.Params["tags"];// The same param name that you put in extrahtml if you have some.
                 string category = HttpContext.Request.Params["category"];
