@@ -69,6 +69,10 @@ namespace FileuploadDemo.Controllers
         //
         // GET: /Home/
 
-       
+        public ActionResult DeleteUploadedFile(string url)
+        {
+            return File(url, "");
+        }
+
     }
 }
