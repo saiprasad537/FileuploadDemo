@@ -17,5 +17,11 @@ namespace FileuploadDemo.Controllers
             return View();
         }
 
+        public ActionResult FileUploadTest()
+        {
+            //New action Method
+            return View();
+        }
+
     }
 }
