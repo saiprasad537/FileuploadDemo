@@ -32,6 +32,7 @@ namespace FileuploadDemo.Controllers
                 hpf.SaveAs(savedFileName);
                         
                 var msg = new { msg = "File Uploaded", filename = hpf.FileName, url= savedFileName };
+                //passing Json format for Fileupload PlugIn
                 return Json(msg,"text/x-json");
             }
             catch (Exception e)
