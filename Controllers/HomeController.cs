@@ -9,7 +9,7 @@ namespace FileuploadDemo.Controllers
 {
     public class HomeController : Controller
     {
-
+        // Home Action method
          public ActionResult Index()
         {
             return View();
