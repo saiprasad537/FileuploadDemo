@@ -10,7 +10,7 @@ using System.Web.Routing;
 namespace FileuploadDemo
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
+    // visit http://go.microsoft.com/?LinkId=9394801 comment dattf 
 
     public class MvcApplication : System.Web.HttpApplication
     {
